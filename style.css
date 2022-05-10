@@ -1,1 +1,43 @@
 
+body {
+    background-color: rgb(141, 194, 238);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#case {
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#screen {
+    width: 310px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 10px;
+}
+
+button {
+    background-color: azure;
+}
+
+.operations {
+    background-color: rgb(218, 218, 218);
+}
+
+.buttons {
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+}
+
+.largeButtons {
+    width: 110px;
+    height: 70px;
+    border-radius: 25px;
+}
+
