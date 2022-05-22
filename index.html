@@ -8,25 +8,25 @@
 
 <body>
     <div id="case">
-    <div id="screen"></div>
-    <button class="largeButtons operations">backspace</button>
-    <button class="largeButtons operations">clear</button>
-    <button class="buttons operations">/</button>
-    <button class="buttons">7</button>
-    <button class="buttons">8</button>
-    <button class="buttons">9</button>
-    <button class="buttons operations">*</button>
-    <button class="buttons">4</button>
-    <button class="buttons">5</button>
-    <button class="buttons">6</button>
-    <button class="buttons operations">-</button>
-    <button class="buttons">1</button>
-    <button class="buttons">2</button>
-    <button class="buttons">3</button>
-    <button class="buttons operations">+</button>
-    <button class="largeButtons">0</button>
-    <button class="largeButtons operations">.</button>
-    <button class="buttons operations">=</button>
+    <div id="display"></div>
+    <button class="largeButtons operations" onclick="operate('backspace')">backspace</button>
+    <button class="largeButtons operations" onclick="operate('clear')">clear</button>
+    <button class="buttons operations" onclick="operate('/')">/</button>
+    <button class="buttons" onclick="operate(7)">7</button>
+    <button class="buttons" onclick="operate(8)">8</button>
+    <button class="buttons" onclick="operate(9)">9</button>
+    <button class="buttons operations" onclick="operate('*')">*</button>
+    <button class="buttons" onclick="operate(4)">4</button>
+    <button class="buttons" onclick="operate(5)">5</button>
+    <button class="buttons" onclick="operate(6)">6</button>
+    <button class="buttons operations" onclick="operate('-')">-</button>
+    <button class="buttons" onclick="operate(1)">1</button>
+    <button class="buttons" onclick="operate(2)">2</button>
+    <button class="buttons" onclick="operate(3)">3</button>
+    <button class="buttons operations" onclick="operate('+')">+</button>
+    <button class="largeButtons" onclick="operate(0)">0</button>
+    <button class="largeButtons operations" onclick="operate('.')">.</button>
+    <button class="buttons operations" onclick="operate('=')">=</button>
     </div>
 </body>
 </html>
